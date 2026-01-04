@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional de Gustavo Henrique, desenvolvedor Front-end e Full Stack em formação.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="./fav.icons/TVN_Graffiti_re.png">
+    <!-- Fontes consolidadas: Montserrat e Poppins (removida a redundância) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/aa1c17a9f7.js" crossorigin="anonymous"></script>
+    <title>Gustavo Henrique - Portfólio Profissional</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#hero" class="logotipo" aria-label="Voltar para o início">
+            <img src="./img/TVN_Graffiti_re.png" class="logotipo" alt="Gustavo Henrique developer logo">
+        
+        </a>
+        <nav class="nav" aria-label="Navegação Principal">
+            <button class="menu-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1. Hero de apresentação -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <img src="./img/Gemini_Generated_Image_rwaycwrwaycwrway (1).png" alt="Foto de perfil de Gustavo Henrique, desenvolvedor web." class="profile-img">
+                <h1 class="hero-title">Olá, eu sou <b>Gustavo Henrique.</b></h1>
+                <p class="hero-subtitle">Tenho 23 Anos de idade</p>
+                <p class="hero-description">Bem-vindo ao meu portfólio! Sou um desenvolvedor Front-end focado em criar interfaces modernas e acessíveis.</p>
+            
+            </div>
+        </section>
+
+        <!-- 2. Sobre mim -->
+        <section id="sobre-mim" class="about-section">
+            <h2 class="section-title">SOBRE <span class="highlight">MIM</span></h2>
+            <div class="about-content">
+                <p>Tenho me dedicado intensamente ao desenvolvimento das minhas habilidades em Front-end, com foco em HTML, CSS e JavaScript. Meu objetivo é construir uma base sólida e dominar as tecnologias essenciais para criação de interfaces modernas, responsivas e eficientes.</p>
+                <p>Esse processo faz parte da minha jornada para me tornar um desenvolvedor Full Stack, capaz de atuar tanto no lado do cliente quanto no servidor, criando soluções completas, elegantes e de alto desempenho.</p>
+                <p>Cada novo estudo, projeto e desafio me aproxima ainda mais desse propósito, fortalecendo minha capacidade técnica e ampliando meu domínio sobre o ecossistema de desenvolvimento web.</p>
+            </div>
+        </section>
+
+        <!-- 3. Habilidades -->
+        <section id="habilidades" class="skills-section">
+            <h2 class="section-title">HABILI<span class="highlight">DADES</span></h2>
+            <p class="section-subtitle">Minhas principais habilidades em desenvolvimento Front-end incluem:</p>
+            <div class="skills-container">
+                <!-- Uso de article para cada habilidade para melhor semântica -->
+                <article class="skill-card">
+                    <h3 class="skill-title">HTML</h3>
+                    <p class="skill-specialty">Especialidade: Organização de Interfaces</p>
+                    <ul class="skill-list">
+                        <li>Semântica Web</li>
+                        <li>Estrutura de Documentos</li>
+                        <li>Acessibilidade (ARIA)</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3 class="skill-title">CSS</h3>
+                    <p class="skill-specialty">Especialidade: Estilo e organização</p>
+                    <ul class="skill-list">
+                        <li>Design Responsivo (Mobile First)</li>
+                        <li>Flexbox e Grid Layout</li>
+                        <li>Animações e Transições</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3 class="skill-title">JAVASCRIPT</h3>
+                    <p class="skill-specialty">Especialidade: Otimização de Performance</p>
+                    <ul class="skill-list">
+                        <li>Manipulação do DOM</li>
+                        <li>Lógica de Programação</li>
+                        <li>Interatividade e Eventos</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- 4. Projetos -->
+        <section id="projetos" class="projects-section">
+            <h2 class="section-title">PROJETOS <span class="highlight">DESENVOLVIDOS</span></h2>
+            <p class="section-subtitle">Aqui estão alguns dos projetos que desenvolvi recentemente:</p>
+            <div class="projects-grid">
+                <!-- Uso de article para cada projeto para melhor semântica -->
+                <article class="project-card">
+                    <a href="./spotfyp2/index.html" aria-label="Ver projeto Spotfy Replica">
+                        <img src="./imagep/image.png" alt="Miniatura do projeto Spotfy Replica" class="project-image" loading="lazy">
+                        <h3 class="project-title">SPOTFY</h3>
+                        <p class="project-description">Uma réplica da página inicial do Spotfy.</p>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <a href="./TelaLoginp5/index.html" aria-label="Ver projeto Tela de Login">
+                        <img src="./imagep/image copy 3.png" alt="Miniatura do projeto Tela de Login" class="project-image" loading="lazy">
+                        <h3 class="project-title">TELA DE LOGIN</h3>
+                        <p class="project-description">Uma tela responsiva que tem 3 usuários gerando login a uma página.</p>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <a href="./Estrutura/index.html" aria-label="Ver projeto Apple Store Replica">
+                        <img src="./imagep/image copy 2.png" alt="Miniatura do projeto Apple Store Replica" class="project-image" loading="lazy">
+                        <h3 class="project-title">APPLE-STORE</h3>
+                        <p class="project-description">Página desenvolvida para vender produtos Apple.</p>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <a href="./site_melhorado/login.html" aria-label="Ver projeto Diário Eletrônico">
+                        <img src="./imagep/image copy 4.png" alt="Miniatura do projeto Diário Eletrônico" class="project-image" loading="lazy">
+                        <h3 class="project-title">DIÁRIO ELETRÔNICO</h3>
+                        <p class="project-description">Um diário desenvolvido para lançar notas e frequências de alunos em determinados cursos.</p>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <a href="./cafeteriap3/index.html" aria-label="Ver projeto Cafeteria">
+                        <img src="./imagep/image copy.png" alt="Miniatura do projeto Cafeteria" class="project-image" loading="lazy">
+                        <h3 class="project-title">CAFETERIA</h3>
+                        <p class="project-description">Uma página para a venda de cafés, capuccinos e os demais para deixar sua noite de códigos com mais energia.</p>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <a href="./mercadolivre_project/Mercado livrep4/index.html" aria-label="Ver projeto Mercado Livre Replica">
+                        <img src="./imagep/image copy 5.png" alt="Miniatura do projeto Mercado Livre Replica" class="project-image" loading="lazy">
+                        <h3 class="project-title">MERCADO LIVRE</h3>
+                        <p class="project-description">Réplica do Mercado Livre com um Array que armazena os produtos para exposição e pesquisa.</p>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section>
+            <div class="social-links">
+                <a href="www.linkedin.com/in/gustavohenriquetavin" target="_blank" aria-label="Perfil do LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/gustavo_rds.7" target="_blank" aria-label="Perfil do GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/gustavo_henriquetkng/" target="_blank" aria-label="Perfil do Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5533999445869" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+            </div>
+        </section>
+        <section>
+            <br>
+            <p>📍 Salmos 37 📍</p>
+            <a></a>
+            </section>
+        
+        <p>&copy; 2025 Gustavo Henrique. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
